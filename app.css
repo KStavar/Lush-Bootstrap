@@ -1,3 +1,7 @@
+body{
+    background-color:rgb(250, 251, 254);
+}
+
 .intro {
     position: relative;
     width: auto;
@@ -8,109 +12,159 @@
     color: aliceblue;
     flex-direction: column;
     overflow: hidden;
-  }
-  
-  .intro::before {
+}
+
+.intro::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/Matterhorn_Mumemories_Adobe-Stock-Photo_682931585.jpg');
+    background-image: url('img/Matterhorn_Mumemories_Adobe-Stock-Photo_682931585.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(3px);
     z-index: 0;
-  }
-  
-  .fs-1,
-  .fs-6 {
-    position: relative; 
-    z-index: 1;
-  }
-  
-  .fs-1 {
-    color: #123;
-    font-weight: 800;
-  }
-  
-  .fs-6 {
-    width: 70%;
-    font-weight: 700;
-  }
-  
-  .buttons {
+}
+
+.fs-1,
+.fs-6 {
     position: relative;
     z-index: 1;
-  }
-  
+}
 
+.fs-1 {
+    color: #123;
+    font-weight: 800;
+}
 
-.cards1{
+.fs-6 {
+    width: 70%;
+    font-weight: 700;
+}
+
+.buttons {
+    position: relative;
+    z-index: 1;
+}
+.btn-light:hover{
+    background-color:#0d6efd;
+    color:white;
+    border-color:#0d6efd;
+
+}
+
+.cards1 {
     margin-top: 120px;
-    margin-bottom: 135px;
+
     font-weight: 500;
 }
-.div-cards1{
+
+.div-cards1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items:center;
-  
+    align-items: center;
+}
+.div-div-cards1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 90%;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    padding-top: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    background-color:white;
+}
+.fs-6-2 {
+    width: 648px;
 }
 
+.cardss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    cursor: pointer;
 
-
-
-.card{
+}
+.card {
     width: 350px;
     height: 380px;
     display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+.types-of-mountains{
+    width: 255px;
 }
 
-.fs-6-2{
-    width: 648px;
-}
-
-.div-div-cards1{
+#which{
+    margin-top: 60px;
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-    width: 90%;
-    align-items:center;
-    margin-top: 30px;
-    margin-bottom: 90px;
-    justify-content: space-around;
-}
-
-.cardss{
-    display: flex;
-    align-items:center;
     justify-content: center;
-    gap: 80px;
-    cursor: pointer;
-  
 }
 
-.card:hover{
-
-background-color:rgb(223, 235, 248);
-transition:0.3s;
+h2{
+    width: 70%;
+    background-color:white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom:30px;
 }
 
 
-.cards2{
-display: grid;
-justify-content: space-around;
-grid-template-columns: auto auto auto auto;
+.card:hover {
+    background-color: rgb(223, 235, 248);
+    transition: 0.3s;
+}
+
+.cards2 {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto;
+}
+
+#carouselExample{
+  padding: 0px 200px 0px 200px;
+}
+
+.carousel-control-prev-icon{
+    filter: invert(1);
+}
+
+.carousel-control-next-icon {
+    filter: invert(1);
+}
  
+.d-block{
+  height: 600px;
 }
 
-.footer-p{
+.list{
+display: flex;
+justify-content: center;
+}
+
+.list-group{
+    width: 500px;
+}
+
+.link-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-p {
     display: flex;
     justify-content: center;
     gap: 10px;
